@@ -116,6 +116,8 @@ public class GameLogic {
         homeButton.setVisibility(View.GONE);
         playAgainButton.setVisibility(View.GONE);
         playerTurn.setText("Player 1's Turn");
+        winType = new int[] {-1, -1, -1};
+
     }
 
     public int[] getWinType() {
