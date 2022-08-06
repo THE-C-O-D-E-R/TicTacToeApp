@@ -48,26 +48,3 @@ public class GameDisplayFragment extends Fragment {
         return view;
     }
 }
-
-//    Button resetButton = view.findViewById(R.id.resetGameButton);
-//        resetButton.setOnClickListener(new View.OnClickListener() {
-//@Override
-//public void onClick(View view) {
-//        getFragmentManager().popBackStack();
-//        FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-//        fragmentTransaction.replace(R.id.fragment_container_view, GameDisplayFragment.class, null);
-//        fragmentTransaction.setReorderingAllowed(true);
-//        fragmentTransaction.addToBackStack(null);
-//        fragmentTransaction.commit();
-//        }
-//        });
-
-
-//    Button gotoHomeButton = view.findViewById(R.id.gotoHomeButton);
-//        gotoHomeButton.setOnClickListener(new View.OnClickListener(){
-//@Override
-//public void onClick(View view){
-//        FragmentManager fragmentManager=getParentFragmentManager();
-////        fragmentManager.popBackStack();
-//        }
-//        });

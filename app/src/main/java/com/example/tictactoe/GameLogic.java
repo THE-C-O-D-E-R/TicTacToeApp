@@ -26,7 +26,6 @@ public class GameLogic {
         this.playAgainButton = playAgainButton;
     }
 
-
     public boolean winnerCheck() {
         boolean isWinner = false;
         // horizontal check (winType == 1)
@@ -34,7 +33,7 @@ public class GameLogic {
             if (gameBoard[r][0] == gameBoard[r][1] && gameBoard[r][0] == gameBoard[r][2] && gameBoard[r][0] != 0) {
                 isWinner = true;
                 winType = new int[]{r, 0, 1};
-                break;
+                break;  
             }
         }
         // vertical check (winType == 2)
